@@ -1,6 +1,6 @@
-# Actor-Critic Methods on Lunar Lander & Bipedal Walker
+# Actor-Critic Methods on Classic Gym Environments
 
-Actor-Critic methods are high-performing agents that combine the best aspects of simpler RL models. To demonstrate our reinforcement learning skills, my teammate and I built the A2C agent from scratch and tested its performance on the Lunar Lander and Bipedal Walker gymnasium environments.
+Actor-Critic methods are high-performing agents that combine the best aspects of simpler RL models. To demonstrate our reinforcement learning skills, my teammate and I built an actor-critic agent from scratch and evaluated it on the Cart Pole environment. We then upgraded the model to an A2C agent and tested its performance on the Lunar Lander and Bipedal Walker gymnasium environments.
 
 Skills:
 
@@ -23,7 +23,7 @@ Tools & Technologies:
 
 Results & Evaluation:
 
-The A2C agent was able to learn an optimal policy and solve the Lunar Lander environment by earning a reward above 200 points. While the agent may not have reached the best policy with the Bipedal Walker environment, the agent showed strong convergence and promising improvement across episodes. 
+Our base actor-critic model was able to learn the best policy and reach the maximum reward when solving the Cart Pole environment in every evaluation episode. The A2C agent was able to learn an optimal policy and solve the Lunar Lander environment by earning a reward above 200 points. While the agent may not have reached the best policy with the Bipedal Walker environment, the agent showed strong convergence and promising improvement across episodes. 
 
 Challenges & Learning:
 
