@@ -28,3 +28,7 @@ The A2C agent was able to learn an optimal policy and solve the Lunar Lander env
 Challenges & Learning:
 
 I learned how to implement multiple threads for a multi-processing model to make effective use of computational resources. This project significantly improved my skills at tuning hyperparameters for reinforcement learning tasks.
+
+Contribution:
+- Team Members: Erin Gregoire & John Abramo
+- My Role: Evaluated the base actor-critic model on Cart Pole, co-built the A2C model, and evaluated the A2C model on Lunar Lander
