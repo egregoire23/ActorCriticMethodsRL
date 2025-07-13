@@ -1,10 +1,10 @@
 # Actor-Critic Methods on Classic Gym Environments
 
-Actor-Critic methods are high-performing agents that combine the best aspects of simpler RL models. To demonstrate our reinforcement learning skills, my teammate and I built an actor-critic agent from scratch and evaluated it on the Cart Pole environment. We then upgraded the model to an A2C agent and tested its performance on the Lunar Lander and Bipedal Walker gymnasium environments.
+Actor-Critic methods are powerful reinforcement learning agents that combine the strengths of value-based and policy-based models. To demonstrate our reinforcement learning skills, my teammate and I built an Actor-Critic agent from scratch and evaluated it on the CartPole environment. We then enhanced the model into an A2C (Advantage Actor-Critic) agent using synchronous multi-threading and tested its performance on the LunarLander and BipedalWalker environments from Gymnasium.
 
 Skills:
 
-PyTorch, multi-threading, hyperparameter tuning, gradient ascent
+PyTorch, Multi-Threading, Hyperparameter Tuning, Gradient Ascent
 
 Environment:
 - Cart Pole from Gymnasium ([link](https://gymnasium.farama.org/environments/classic_control/cart_pole/))
@@ -12,9 +12,9 @@ Environment:
 - Bipedal Walker from Gymnasium ([link](https://gymnasium.farama.org/environments/box2d/bipedal_walker/))
 
 Methodology:
-- Built an actor-critic agent from scratch and evaluated on Cart Pole
-- Improved the agent to an A2C agent by adding synchronous multi-threading
-- Evaluated agent on Lunar Lander and Bipedal Walker environments
+- Built a base Actor-Critic agent and evaluated it on CartPole
+- Upgraded the model to A2C with synchronous multi-threading
+- Evaluated the A2C agent on LunarLander and BipedalWalker environments
 
 Tools & Technologies:
 - Programming Language: Python
@@ -23,12 +23,12 @@ Tools & Technologies:
 
 Results & Evaluation:
 
-Our base actor-critic model was able to learn the best policy and reach the maximum reward when solving the Cart Pole environment in every evaluation episode. The A2C agent was able to learn an optimal policy and solve the Lunar Lander environment by earning a reward above 200 points. While the agent may not have reached the best policy with the Bipedal Walker environment, the agent showed strong convergence and promising improvement across episodes. 
+The base Actor-Critic model consistently solved the CartPole environment by achieving maximum reward across evaluation episodes. The enhanced A2C agent successfully learned an optimal policy on LunarLander, averaging rewards above 200. While the agent did not fully solve BipedalWalker, it demonstrated strong learning and consistent improvement across episodes.
 
 Challenges & Learning:
 
-I learned how to implement multiple threads for a multi-processing model to make effective use of computational resources. This project significantly improved my skills at tuning hyperparameters for reinforcement learning tasks.
+I learned how to implement multi-threaded training using multiprocessing to improve training efficiency. This project also strengthened my ability to tune hyperparameters in reinforcement learning and understand the intricacies of stabilizing learning in actor-critic architectures.
 
 Contribution:
 - Team Members: Erin Gregoire & John Abramo
-- My Role: Evaluated the base actor-critic model on Cart Pole, co-built the A2C model, and evaluated the A2C model on Lunar Lander
+- My Role: Evaluated the base Actor-Critic model on CartPole, co-developed the A2C model, and evaluated its performance on LunarLander
